@@ -1,5 +1,27 @@
 {
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3"
-  }
+  },
+  "name": "crawler",
+  "description": "用 node 做个爬虫扒一扒小姐姐",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolkeychen/node-crawler.git"
+  },
+  "keywords": [
+    "node.js",
+    "crawler",
+    "网络爬虫"
+  ],
+  "author": "coolkeychen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolkeychen/node-crawler/issues"
+  },
+  "homepage": "https://github.com/coolkeychen/node-crawler#readme"
 }
