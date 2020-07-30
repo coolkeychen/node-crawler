@@ -1,3 +1,11 @@
+/*
+ * @Author: Cat 
+ * @Date: 2020-07-30 16:54:48 
+ * @Last Modified by:   Cat 
+ * @Last Modified time: 2020-07-30 16:54:48 
+ */
+
+
 const https = require('https');  // http 网络
 const cheerio = require('cheerio'); // html 解析
 const fs = require('fs') // 文件流
@@ -17,6 +25,7 @@ let downCount = 0;
  * @param {String}: url
  * @param {int}: search
  */
+
 
 function getHtml(href, search) { 
   console.log("正在获取第"+ search + "页的图片");
@@ -106,8 +115,6 @@ function downImg(imgurl) {
     }
   })
 }
-
-
 
 function start() { 
   console.log("开始获取图片连接");
