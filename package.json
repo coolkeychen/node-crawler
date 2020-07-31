@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/coolkeychen/node-crawler/issues"
   },
-  "homepage": "https://github.com/coolkeychen/node-crawler#readme"
+  "homepage": "https://github.com/coolkeychen/node-crawler#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "puppeteer": "^5.2.1"
+  }
 }
